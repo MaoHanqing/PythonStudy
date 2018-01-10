@@ -7,8 +7,8 @@ print('{name} wrote {book}'.format(name = name,book = 'ddd'))
 print('a',end=" ") #每个print结尾都以/n结束 可以用空格替换/n
 a = 3
 b = 4
-print('{}',a//b )#//为整除
-print('{}',a**b)#**为乘方
+print(a//b )#//为整除
+print(a**b)#**为乘方
 
 guess = int(input('enter'))
 
