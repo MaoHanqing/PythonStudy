@@ -18,7 +18,7 @@ print('characters 1 to 3 is',name[1:3])
 print('characters 2 to end is',name[2:])
 print('characters 1 to -1 is',name[1:-1])
 print('characters start to end is',name[:])
-#第三个参数为切片的步长 默认为1 
+#第三个参数为切片的步长 默认为1
 print(shoplist[::1])
 print(shoplist[::2])
 print(shoplist[::-1])#为-1的情况可以实现序列反转
