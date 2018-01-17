@@ -16,3 +16,15 @@ for i in range(1,5,2): #range中最后一个参数指函数以2来递增
     print(i)
 
 # 字符长度函数len()
+
+'''
+%d	整数
+%f	浮点数
+%s	字符串
+%x	十六进制整数
+'''
+
+#较为简洁的字符格式化方法为
+print('%s was %s years old when he wrote this book' % (name,age))
+print('why is %s playing with that python?'%(name))
+print('ddd' + 'aa' +'dddd%s' % ('dd'))
